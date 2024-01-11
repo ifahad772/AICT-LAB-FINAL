@@ -1,0 +1,119 @@
+body{
+    background-color: beige;
+}
+.navbar{
+    background-color:white; 
+    text-align: center;
+    padding: 2px; 
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar ul{
+      display: inline-flex;
+      list-style: none;
+      color: rgb(132, 204, 253);
+    }
+    .navbar ul li{
+      width: 200px;
+      margin: 1px;
+      padding: 10px; 
+      border-radius: 3px; 
+    }
+    .navbar ul li a{
+      text-decoration: none;
+      color: black;
+      font-weight: bolder;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .navbar ul li:hover
+    {
+      background-color:#7e8dff;
+      color: antiquewhite;
+      
+    }
+    .navbar .fa{
+      margin-left: 8px;
+    }
+    .text {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(74, 122, 255);
+        font-size: 40px;
+        background-color: rgb(31, 25, 25,0.8);
+        text-align:center;
+        width: 50%;
+        margin-top: 5%;
+    }
+    .text span{
+        display:block;
+        margin-bottom: 20px;
+    }
+    .register{
+        padding: 10px 20px;
+        background-color:rgb(32, 117, 246);
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 3%;
+        
+    }
+    .viewcategories{
+        padding: 10px 20px;
+        background-color:rgb(32, 117, 246);
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 3%;
+    }
+    .register:hover{
+        color: black;
+    }
+    .viewcategories:hover{
+        color:black
+    }
+    .image-container-2 {
+        display: flex;
+    }
+    
+    .image-container-2 img {
+        width: 100%; 
+        margin-right: 10px; 
+    }
+    .image-item {
+        margin-right: 20px; 
+        text-align: center;
+    }
+    .image-item img{
+        border-radius: 5px;
+        
+    }
+    .image-item p {
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    
+    p{
+        text-align: left;
+        text-decoration: none;
+        color: rgb(54, 29, 29);
+        font-size: larger;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background-color: rgb(164, 237, 255);
+        color: black;
+        font-size: larger;
+    }
+    
+    .footer p {
+        margin: 0;
+    }
+    
+   

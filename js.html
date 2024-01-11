@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Javascript</h1>
+
+    <script>
+        function light(sw) {
+            var pic;
+            if (sw == 0) {
+                pic = "pexels-pixabay-248547.jpg"
+            }
+            else {
+                pic = "pexels-wallace-chuck-2834917.jpg"
+            }
+            document.getElementById('myImage').src = pic;
+        }
+    </script>
+    <img id="myImage" src="" width="500">
+    <p>
+        <button type="buttn" onclick="light(0)">IMAGE 1</button>
+        <button type="buttn" onclick="light(1)">IMAGE 2</button>
+    </p>
+
+    <h1>ADDING 2 NUMBERS </h1>
+<script>
+var X, Y, S
+X = prompt("Enter first number")
+Y = prompt("Enter second number")
+S = parseInt(X) + parseInt(Y)
+alert("Sum of two values = " + S)
+</script>
+
+<script>
+    var X, Y, S
+    X = prompt("Enter first number")
+    Y = prompt("Enter second number")
+    S = parseInt(X) - parseInt(Y)
+    alert(" Subtraction of two values = " - S)
+    </script>
+
+
+</body>
+</html>
